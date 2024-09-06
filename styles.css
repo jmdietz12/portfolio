@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: monospace;
+    overflow: hidden; /* Prevent default scrolling */
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    top: 100vh; /* Start off-screen */
+    width: 100%;
+    transition: transform 0.8s ease-in-out;
+}
+
+.text {
+    display: flex;
+    flex-direction: column; /* Stack header and paragraph vertically */
+    align-items: center; /* Center align text elements */
+}
+
+#home {
+    background: #70058e;
+    top: 1;
+}
+
+#project1 {
+    background: #38b6f1;
+}
+
+#project2 {
+    background: #d3a625;
+}
+
+#project3 {
+    background: #3ce76f;
+}
+
+#project4 {
+    background: #e40505;
+}
+
+h1 {
+    font-size: 5rem;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2.5rem;
+    max-width: 600px;
+    margin-bottom: 25px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.1rem;
+    max-width: 600px;
+}
+
+#photo {
+    height: 300px;
+    width: 450px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+}
+
+#start {
+    width: 150px;
+    height: 50px;
+    font-size: 2rem;
+    text-align: center;
+    font-family: impact;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#start:hover {
+    color: white;
+    background-color: black;
+}
+
+#botw-compendium {
+    height: 450px; 
+    width: 100%;
+    margin-left: 50px;
+}
+
+#harryquiz {
+    height:450px;
+    width: 100%;
+    margin-left: 50px;
+}
+
+#robotz {
+    height:450px;
+    width: 100%;
+    margin-left: 50px;
+}
+
+#lightsaber {
+    height:450px;
+    width: 255px;
+    margin-left: 100px;
+}
+
+
+/* Active class moves the section into view */
+.section.active {
+    transform: translateY(-100vh);
+}

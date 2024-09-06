@@ -1,0 +1,105 @@
+<html>
+    <head>
+        <title>Joshua Dietzenbach</title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body>
+        <form action="results.html" method="get">
+            <h1>What Hogwarts House Are You In Based Off of Georgia Tech Things?</h1>
+            <h4>Hogwarts and Georgia Tech aren't so different. 7 Questions for 7 Years. Let the Sorting Hat decide!!!!</h4>
+            <img src="images\Hogwarts_houses.png" id="logo"></img>
+
+            <div>
+                <p>What is Your Favoite Tech Location?</p>
+                <input type="radio" id="tt" name="place" value="tt">
+                <label for="tt">Tech Tower</label>
+
+                <input type="radio" id="library" name="place" value="library">
+                <label for="library">The Library</label>
+                
+                <input type="radio" id="stadium" name="place" value="stadium">
+                <label for="stadium">Bobby Dodd Stadium</label>
+                
+                <input type="radio" id="center" name="place" value="center">
+                <label for="center">The Student Center</label>
+            </div>
+
+            <div>
+                <p>What Type of Club(s) Are You In?</p>
+                <input type="checkbox" id="academic" name="club" value="academic">
+                <label for="academic">Academic or Media</label>
+
+                <input type="checkbox" id="sports" name="club" value="sports">
+                <label for="sports">Outdoors or Sport</label>
+                
+                <input type="checkbox" id="volunteer" name="club" value="volunteer">
+                <label for="volunteer">Volunteering or The Arts</label>
+                
+                <input type="checkbox" id="leadership" name="club" value="leadership">
+                <label for="leadership">Leadership or Competetion</label>
+            </div>
+           
+            <div>
+                <p>You Are Free on a Friday Night, What Do You Do?</p>
+                <input type="radio" id="party" name="friday" value="party">
+                <label for="party">Go Out With Friends and Party!</label>
+
+                <input type="radio" id="movie" name="friday" value="movie">
+                <label for="movie">Invite Some Friends to My Dorm to Watch a Movie!</label>
+                
+                <input type="radio" id="study" name="friday" value="study">
+                <label for="study">Get My Next Week Homework Done Early!</label>
+                
+                <input type="radio" id="games" name="friday" value="games">
+                <label for="games">Hop on Discord and Play Video Games With My Friends!</label>
+            </div>
+
+            <div>
+                <p>What is Your Favoite Tech Tradition?</p>
+                <input type="radio" id="buzz" name="tradition" value="buzz">
+                <label for="buzz">Buzz</label>
+
+                <input type="radio" id="wreck" name="tradition" value="wreck">
+                <label for="wreck">The Ramblin' Wreck</label>
+                
+                <input type="radio" id="welcome" name="tradition" value="welcome">
+                <label for="welcome">Week of Welcome</label>
+                
+                <input type="radio" id="whistle" name="tradition" value="whistle">
+                <label for="whistle">The Whistle</label>
+            </div>
+
+            <div>
+                <label for="credit" id="descript">How Many Credit Hours Are You Taking This Semester?</label>
+                <input type="number" name="credit" id="credit" step="1" min="6" max="21">
+            </div>
+
+            <div>
+                <label for="side" id="descript"> Which Side of Campus is Better?</label>
+                <select name="side" id="side">
+                    <option value="east">East</option>
+                    <option value="west">West</option>
+                </select>
+            </div>
+
+            <div>
+                <p>What Dining Hall is The Best?</p>
+                <input type="radio" id="nav" name="dining" value="nav">
+                <label for="nav">North Avenue</label>
+
+                <input type="radio" id="willage" name="dining" value="willage">
+                <label for="willage">West Village</label>
+                
+                <input type="radio" id="britain" name="dining" value="britain">
+                <label for="britain">Britain</label>
+                
+                <input type="radio" id="ew" name="dining" value="ew">
+                <label for="ew">I Only Eat at Chick-Fil-A and Panda Express</label>
+            </div>
+
+            <div>
+                <input id="submit-btn" type="submit" value="Sort Me!">
+            </div>
+        </form>
+    </body>
+</html>

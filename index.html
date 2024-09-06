@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Showcase</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class = "section" id="home">
+        <div class="text">          
+            <h1>Coding Projects Website</h1>
+            <h3>A fun look into some past coding projects, including interactive elements!</h3>
+            <p>Use the <b>up</b> and <b>down</b> arrow keys to move through the website!</p>
+        </div>
+        <div class="text">
+            <img src="coding.jpg" id="photo">
+            <button id="start">Lets Go!</button>
+        </div>
+    </div>
+    <div class="section" id="project1">
+        <div class="text">
+            <h2>Website 1: Breath of the Wild Compendium</h2>
+            <p>Using public API and Streamlit in CS 1301, I was able to make a useful website that displays weapons, items, etc.
+            and tell stats about them in The Legend of Zelda: Breath of the Wild. I included 3 search features: by
+            name, by item number, or randomly by category.
+            </p>
+        </div>
+        <iframe src="https://botw-compendium.streamlit.app/?embed=true" id="botw-compendium"> </iframe>
+    </div>
+    <div class="section" id="project2">
+        <div class="text">
+            <h2>Website 2: Harry Potter/Georgia Tech Sorting Quiz</h2>
+            <p>I created a "Buzz Feed" style form in CS 1301 that would ask questions about Georgia Tech related 
+                things and sort the user into a Hogwarts house. I used different html form features and if statements to
+                determine the house.
+            </p>
+        </div>
+        <iframe src="WebDevelopmentLab02/form.html" id="harryquiz"></iframe>
+    </div>
+    <div class="section" id="project3">
+        <div class="text">
+            <h2>Game: Galactic Robotz</h2>
+            <p>Using an online course in high school, I was able to design and partially program a platformer game
+                in Unity. It utilizes enemies, collectables, and other platforming elements. It has some bug problems due
+                to the hardware limitations I had at the time.
+            </p>
+        </div>
+        <iframe id="robotz" src="https://www.youtube.com/embed/icdWntYOrNY?si=4sP7dnAzeS27koUB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <div class="section" id="project4">
+        <div class="text">
+            <h2>Program: Atlanta Braves Lightsaber</h2>
+            <p> The coding was light for this, only having to add in a prebuilt line of code to determine the color and
+                timing. I converted videos and sound bites into .wav files to the specific kbps 
+                needed by the lightsaber using DiVinci Resolve.
+            </p>
+        </div>
+        <iframe id="lightsaber" src="https://www.youtube.com/embed/_VagoaK6Ofc?si=VB8_qeoxQ40iWykB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

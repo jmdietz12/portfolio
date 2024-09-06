@@ -1,0 +1,76 @@
+form {
+    border: 10px solid #d3a625;
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    font-family: harrington, fantasy;
+    background-color: antiquewhite;
+    div {
+        margin-bottom: 15px;
+    }
+    h1 {
+        text-align: center;
+    }
+    h4 {
+        text-align: center;
+    }
+    p {
+        font-weight: bold;
+    }
+    #descript {
+        font-weight: bold;
+    }
+    #side {
+        font-family: "Lucida Handwriting", cursive;
+    }
+    #credit {
+        font-family: "Lucida Handwriting", cursive;
+    }
+    
+}
+
+
+body {
+    background-image: url("images/dining_hall.jpg");
+    background-size: cover;
+}
+
+button {
+    font-family: "Lucida Handwriting", cursive;
+    text-align: center;
+    cursor: pointer;
+    border-color: #d3a625;
+    background-color: antiquewhite;
+    color: black;
+    margin-top: 10px;
+}
+
+#submit-btn {
+    font-family: "Lucida Handwriting", cursive;
+    cursor: pointer;
+    background-color: #d3a625;
+    border-color: #5d5d5d;
+    color: white;
+}
+
+#house {
+    border: 10px solid #5d5d5d;
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    font-family: harrington, fantasy;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+}
+
+#logo {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
