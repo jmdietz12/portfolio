@@ -98,23 +98,23 @@ if (dining == "ew") {
 if (slytherin > gryffindor && slytherin > hufflepuff && slytherin > ravenclaw) {
     sortinghat = "Slytherin";
     motto = "cunningness and ambition";
-    image = 'images/Slytherin_Crest.webp';
+    image = 'Slytherin_Crest.webp';
 } else if (gryffindor > slytherin && gryffindor > hufflepuff && gryffindor > ravenclaw) {
     sortinghat = "Gryffindor";
     motto = "strength and courage";
-    image = "images/Gryffindor_crest.webp";
+    image = "Gryffindor_crest.webp";
 } else if (hufflepuff > slytherin && hufflepuff > gryffindor && hufflepuff > ravenclaw) {
     sortinghat = "Hufflepuff";
     motto = "hard work and loyalty";
-    image = 'images/Hufflepuff_crest.webp';
+    image = 'Hufflepuff_crest.webp';
 } else if (ravenclaw > slytherin && ravenclaw > gryffindor && ravenclaw > hufflepuff) {
     sortinghat = "Ravenclaw";
     motto = "wit and unity";
-    image = 'images/Ravenclaw_crest.webp';
+    image = 'Ravenclaw_crest.webp';
 } else {
     sortinghat = "2 or more houses, try again with different answers"
     motto = "so many things"
-    image = 'images/Sorting_Hat.webp';
+    image = 'Sorting_Hat.webp';
 }
 
 function postData() {
