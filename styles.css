@@ -51,6 +51,14 @@ body {
     background: #e40505;
 }
 
+#project5 {
+    background: #282830;
+}
+
+#project6 {
+    background: #003057;
+}
+
 h1 {
     font-size: 5rem;
     margin-bottom: 20px;
@@ -122,6 +130,17 @@ p {
     margin-left: 100px;
 }
 
+#judicialAI {
+    height:450px;
+    width: 150%;
+    margin-left: 50px;
+}
+
+#buzzbot {
+    height:450px;
+    width: 100%;
+    margin-left: 50px;
+}
 
 /* Active class moves the section into view */
 .section.active {
