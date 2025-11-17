@@ -67,6 +67,10 @@ body {
     background:#be7e59;
 }
 
+#project9 {
+    background: #db1e93
+}
+
 h1 {
     font-size: 5rem;
     margin-bottom: 20px;
@@ -158,6 +162,12 @@ p {
 
 #study-spot {
     height: 450px; 
+    width: 100%;
+    margin-left: 50px;
+}
+
+#digital-mechanic {
+    height:450px;
     width: 100%;
     margin-left: 50px;
 }
