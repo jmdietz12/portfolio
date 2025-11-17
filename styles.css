@@ -119,55 +119,55 @@ p {
 }
 
 #botw-compendium {
-    height: 450px; 
+    height: 80vh; 
     width: 100%;
     margin-left: 50px;
 }
 
 #harryquiz {
-    height:450px;
+    height:80vh;
     width: 100%;
     margin-left: 50px;
 }
 
 #robotz {
-    height:450px;
+    height:80vh;
     width: 100%;
     margin-left: 50px;
 }
 
 #lightsaber {
-    height:450px;
+    height:80vh;
     width: 255px;
     margin-left: 100px;
 }
 
 #judicialAI {
-    height:450px;
+    height:80vh;
     width: 150%;
     margin-left: 50px;
 }
 
 #buzzbot {
-    height:450px;
+    height:80vh;
     width: 100%;
     margin-left: 50px;
 }
 
 #movie-store {
-    height: 450px; 
+    height: 80vh; 
     width: 100%;
     margin-left: 50px;
 }
 
 #study-spot {
-    height: 450px; 
+    height: 80vh; 
     width: 100%;
     margin-left: 50px;
 }
 
 #digital-mechanic {
-    height:100%;
+    height:80vh;
     width: 100%;
     margin-left: 50px;
 }
