@@ -71,6 +71,10 @@ body {
     background: #db1e93
 }
 
+#project10 {
+    background: #827f93
+}
+
 h1 {
     font-size: 5rem;
     margin-bottom: 20px;
@@ -172,6 +176,11 @@ p {
     margin-left: 50px;
 }
 
+#anchor {
+    height:80vh;
+    width: 100%;
+    margin-left: 50px;
+}
 /* Active class moves the section into view */
 .section.active {
     transform: translateY(-100vh);
