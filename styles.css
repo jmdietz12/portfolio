@@ -79,6 +79,14 @@ body {
     background: #141030
 }
 
+#project12 {
+    background: #821616
+}
+
+#project13 {
+    background: #BF7E40
+}
+
 h1 {
     font-size: 5rem;
     margin-bottom: 20px;
@@ -186,11 +194,17 @@ p {
     margin-left: 50px;
 }
 
-/* #emperors-tundra {
+#ten-minutes {
     height:80vh;
     width: 100%;
     margin-left: 50px;
-} */
+}
+
+#brandbook {
+    width: 100%;
+    height: 80vh;
+    margin-left: 50px;
+}
 
 /* Active class moves the section into view */
 .section.active {
