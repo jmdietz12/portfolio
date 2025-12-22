@@ -33,17 +33,26 @@ window.addEventListener('keydown', (event) => {
 // Initialize the first section as active
 activateSection(currentIndex);
 
-// Event listener for button click
-document.getElementById('start').addEventListener('click', () => {
-    // Trigger the down arrow action or your specific navigation logic
-    navigateDown();
+document.querySelectorAll('.nav-btn').forEach(button => {
+    button.addEventListener('click', () => {
+        const index = parseInt(button.dataset.index);
+        goToSection(index);
+    });
 });
 
-// Function to handle navigating down
-function navigateDown() {
-    // Example logic for moving to the next section
-    if (currentIndex < sections.length - 1) {
-        currentIndex++;
+
+// // Function to handle navigating down
+// function navigateDown() {
+//     // Example logic for moving to the next section
+//     if (currentIndex < sections.length - 1) {
+//         currentIndex++;
+//         activateSection(currentIndex);
+//     }
+// }
+
+function goToSection(index) {
+    if (index >= 0 && index < sections.length) {
+        currentIndex = index;
         activateSection(currentIndex);
     }
 }

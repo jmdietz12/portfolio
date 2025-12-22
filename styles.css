@@ -30,6 +30,12 @@ body {
     align-items: center; /* Center align text elements */
 }
 
+.buttons {
+    display: flex;
+    flex-direction: row; /* Stack header and paragraph vertically */
+    align-items: center; /* Center align text elements */
+}
+
 #home {
     background: #70058e;
     top: 1;
@@ -76,7 +82,7 @@ body {
 }
 
 #project11 {
-    background: #141030
+    background: #00a2ff
 }
 
 #project12 {
@@ -85,6 +91,10 @@ body {
 
 #project13 {
     background: #BF7E40
+}
+
+#project14 {
+    background: #141312
 }
 
 h1 {
@@ -117,9 +127,9 @@ p {
     border-radius: 15px;
 }
 
-#start {
+#button {
     width: 150px;
-    height: 50px;
+    height: 100px;
     font-size: 2rem;
     text-align: center;
     font-family: impact;
@@ -127,9 +137,10 @@ p {
     background-color: white;
     border-radius: 5px;
     cursor: pointer;
+    margin-right: 20px;
 }
 
-#start:hover {
+#button:hover {
     color: white;
     background-color: black;
 }
@@ -203,6 +214,12 @@ p {
 #brandbook {
     width: 100%;
     height: 80vh;
+    margin-left: 50px;
+}
+
+#call-agent {
+    width: 75%;
+    height: 20vh;
     margin-left: 50px;
 }
 
