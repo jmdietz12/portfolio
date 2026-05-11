@@ -1,2 +1,2 @@
 # Portfolio Website
-// The files for the main website are index.html, styles.css, and script.js
+A complete portfolio of my creative works while a student at Georgia Tech, organized by category.
