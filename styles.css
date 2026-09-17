@@ -113,6 +113,14 @@ body {
     background: #FAC324 
 }
 
+#project19 {
+    background: #B39051
+}
+
+#project20 {
+    background: #C0C0C0
+}
+
 h1 {
     font-size: 5rem;
     margin-bottom: 20px;
@@ -246,7 +254,7 @@ p {
 }
 
 #millenniam {
-    width: 40%;
+    width: 60%;
     height: 80vh;
     margin-left: 50px;
 }
@@ -261,8 +269,20 @@ p {
 }
 
 #timeslips {
-    width: 40%;
+    width: 60%;
     height: 80vh;
+    margin-left: 50px;
+}
+
+#evp-presentation {
+    width: 60%;
+    height: 80vh;
+    margin-left: 50px;
+}
+
+#leadatTech {
+    height:80vh;
+    width: 100%;
     margin-left: 50px;
 }
 
